@@ -1,3 +1,4 @@
+package Lab12;
 
 public class EncryptionTester {
 	
@@ -6,8 +7,9 @@ public class EncryptionTester {
         String decryptedFilePath = "src/decrypted.txt";
         String inputFilePath = "src/encryptMe.txt";
         String outputFilePath = "src/newEncrypted.txt";
+        // creates newEncrypted.txt
 		
-        int shift = 1; // Says how much you would like to shift
+        int shift = 4; // Says how much you would like to shift
 
         Encrypter enc = new Encrypter(shift);
 
